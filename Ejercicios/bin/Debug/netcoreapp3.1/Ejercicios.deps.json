@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Ejemplo git/1.0.0": {
+      "Ejercicios/1.0.0": {
         "runtime": {
-          "Ejemplo git.dll": {}
+          "Ejercicios.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Ejemplo git/1.0.0": {
+    "Ejercicios/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
