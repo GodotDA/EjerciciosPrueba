@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; //No se está usando
 using System.Text; 
 
 namespace Ejercicios
