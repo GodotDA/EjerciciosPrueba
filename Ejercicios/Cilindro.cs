@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic; //No se está usando
-using System.Text; 
 
 namespace Ejercicios
 {
@@ -16,7 +14,7 @@ namespace Ejercicios
         {
             double radio = diametro / 2;
             double volumen = Math.PI * (Math.Pow(radio, 2)) * altura;
-            //Devovemos el volumen
+
             return volumen;
 
         }
