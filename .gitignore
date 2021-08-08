@@ -1,1 +1,4 @@
-.vs/Ejercicios/DesignTimeBuild/.dtbcache.v2
+.vs/*
+.Ejercicios/obj/*
+.Ejercicios/Debug/*
+.Ejercicios/Release/*
