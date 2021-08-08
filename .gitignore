@@ -1,4 +1,4 @@
-.vs/*
-.Ejercicios/obj/*
-.Ejercicios/Debug/*
-.Ejercicios/Release/*
+.vs/
+.Ejercicios/obj/
+.Ejercicios/Debug/
+.Ejercicios/Release/
