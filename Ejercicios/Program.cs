@@ -7,7 +7,8 @@ namespace Ejercicios
         static void Main(string[] args)
         {
             //Program.CalcularVolumenCilindro();
-            Program.CalcuarPrecioMinimoDeUnProducto();
+            //Program.CalcuarPrecioMinimoDeUnProducto();
+            //Program.SaberSiUnNumeroEsPositivoONegativo(); 
         }
 
         // Ejercicio 1
@@ -43,6 +44,23 @@ namespace Ejercicios
             }
             else Console.WriteLine("El producto 3 es más barato");
         }
-
-    }
+        // Ejercicio 3
+        public static void SaberSiUnNumeroEsPositivoONegativo()
+        {
+            Console.WriteLine("Introduce un Número");
+            string numeroString = Console.ReadLine();
+            double numero = Double.Parse(numeroString);
+            if (numero < 0)
+            {
+                Console.WriteLine("Es negativo");
+            }
+            else if (numero > 0)
+            {
+                Console.WriteLine("Es positivo");
+            }
+            else if (numero == 0)
+            {
+                Console.WriteLine("Es igual a 0");
+            }
+        }
 }
